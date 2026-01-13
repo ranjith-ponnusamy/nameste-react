@@ -15,12 +15,15 @@
   "author": "Ranjith",
   "type": "commonjs",
   "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "devDependencies": {
     "parcel": "^2.16.3"
   },
   "dependencies": {
+    "build": "^0.1.4",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
   },
